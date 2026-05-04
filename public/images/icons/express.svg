@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffff;
+        font-family: ArialMT, Arial;
+        font-size: 618.31px;
+      }
+    </style>
+  </defs>
+  <circle cx="512" cy="512" r="512"/>
+  <text class="cls-1" transform="translate(133.56 688.08)">
+    <tspan x="0" y="0">ex</tspan>
+  </text>
+</svg>
