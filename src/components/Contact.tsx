@@ -72,7 +72,7 @@ export default function Contact() {
                         <div className="p-3 bg-(--background-light) rounded-lg border border-(--primary-20)">
                             <MapPin className="size-5 text-(--primary)"/> 
                         </div>
-                        <span className="text-sm md:text-base">Essen / Düsseldorf, Germany</span>
+                        <span className="text-sm md:text-base">Germany</span>
                     </div>
                 </div>
             </div>
