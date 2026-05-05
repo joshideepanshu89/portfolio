@@ -70,7 +70,7 @@ export default function Projects() {
   },
   {
     title: "RepairBuddy",
-    image: "repairbuddy.png",
+    image: "repairbuddyonline.png",
     desc: "AC service and repair booking platform.",
     link: "https://repairbuddyonline.com",
     points: [
