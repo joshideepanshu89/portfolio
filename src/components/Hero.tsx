@@ -92,7 +92,7 @@ export default function Hero() {
         </div>
 
         <p className="text-(--foreground) md:text-lg max-w-md mx-auto lg:mx-0">
-          I build scalable, production-ready web applications from frontend to
+          Based in Germany — I build scalable, production-ready web applications from frontend to
           backend.
         </p>
 

@@ -7,10 +7,11 @@ export default function Projects() {
 
   const [visibleCount, setVisibleCount] = useState(3);
 
- const projects = [
+const projects = [
   {
     title: "Invoician",
     image: "invoician.png",
+    alt: "Invoician full stack invoicing system dashboard built with Node.js MongoDB and authentication",
     desc: "Business invoicing and financial management system.",
     link: "https://invoician.com",
     points: [
@@ -23,6 +24,7 @@ export default function Projects() {
   {
     title: "GarageOnCall",
     image: "goc.png",
+    alt: "GarageOnCall bike service booking platform with dynamic API based pricing and booking flow",
     desc: "At-home bike service and repair platform.",
     link: "https://garageoncall.com",
     points: [
@@ -35,6 +37,7 @@ export default function Projects() {
   {
     title: "FluffyTouch",
     image: "fluffy.png",
+    alt: "FluffyTouch pet grooming and boarding booking platform with dynamic forms and service system",
     desc: "Pet grooming and boarding service platform.",
     link: "https://fluffytouch.in",
     points: [
@@ -47,6 +50,7 @@ export default function Projects() {
   {
     title: "Glazma",
     image: "glazma.png",
+    alt: "Glazma service booking platform with Redux state management authentication and order tracking system",
     desc: "Men’s grooming service booking platform.",
     link: "https://glazma.com",
     points: [
@@ -59,6 +63,7 @@ export default function Projects() {
   {
     title: "BHUMU",
     image: "bhumu.png",
+    alt: "BHUMU wellness platform with structured content system reusable UI components and optimized frontend",
     desc: "Wellness and lifestyle content platform.",
     link: "https://bhumu.com",
     points: [
@@ -71,6 +76,7 @@ export default function Projects() {
   {
     title: "RepairBuddy",
     image: "repairbuddyonline.png",
+    alt: "RepairBuddy AC service booking platform with lightweight UI and fast performance",
     desc: "AC service and repair booking platform.",
     link: "https://repairbuddyonline.com",
     points: [
@@ -83,6 +89,7 @@ export default function Projects() {
   {
     title: "WeExcel Learning Center",
     image: "weexcel.png",
+    alt: "WeExcel Learning Center educational platform with course pages inquiry forms and structured content flow",
     desc: "IELTS coaching and course platform.",
     link: "https://weexcellerningcenter.com",
     points: [
@@ -95,6 +102,7 @@ export default function Projects() {
   {
     title: "Feedbacker",
     image: "feedbacker.png",
+    alt: "Feedbacker platform for social growth services with dynamic forms dashboard and multi platform workflows",
     desc: "Social growth and engagement service platform.",
     link: "https://feedbacker.in",
     points: [
@@ -140,7 +148,7 @@ export default function Projects() {
                 <img
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   src={`/images/projects/${project.image}`}
-                  alt={project.title}
+                  alt={project.alt}
                 />
               </div>
 
