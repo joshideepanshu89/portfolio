@@ -86,8 +86,8 @@ export default function Hero() {
           <h1 className="text-(--text) text-3xl md:text-[40px] font-semibold leading-tight">
             Full Stack Developer
           </h1>
-          <h2 className="text-(--primary) text-xl md:text-3xl font-medium">
-            (React Focused)
+          <h2 className="text-(--primary) text-xl md:text-2xl font-medium">
+            (React • Next.js • Node.js)
           </h2>
         </div>
 

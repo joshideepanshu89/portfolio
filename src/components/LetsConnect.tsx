@@ -18,8 +18,8 @@ export default function LetsConnect() {
           </div>
           
           <div className="space-y-2">
-            <h3 className="text-(--text) text-xl md:text-3xl font-semibold tracking-tight">
-              Open to Full Stack / Frontend roles in Germany
+            <h3 className="text-(--text) text-xl md:text-2xl font-semibold tracking-tight">
+              Open to Full Stack Developer Opportunities in Germany
             </h3>
             <p className="text-(--foreground) text-base md:text-lg opacity-80">
               Let’s build something impactful together.
